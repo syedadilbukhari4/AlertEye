@@ -201,5 +201,3 @@ Entire TDDFA 3D face alignment pipeline (FaceBoxes, bfm, Sim3DR, models, utils, 
 Unused weight files (models loaded fresh via torch.hub)
 Unused audio files (Flutter handles all audio)
 Dead Flutter code (alert_card.dart, app_config.dart, unused sounds)
----
-Contact: rajaaunalikhan@gmail.com
