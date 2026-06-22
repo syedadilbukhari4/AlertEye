@@ -1,0 +1,27 @@
+# Core dependencies
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Computer Vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+onnxruntime==1.17.0
+
+# Audio (for alerts)
+pygame>=2.5.0
+
+# Utilities
+Pillow>=10.0.0
+requests>=2.31.0
+
+# YOLO Hub
+ultralytics>=8.2.64
+
+# dlib - install pre-compiled wheel from GitHub for your Python version:
+# pip install https://github.com/z-mahmud22/Dlib_Windows_Python3.x/raw/main/dlib-20.0.99-cp314-cp314-win_amd64.whl

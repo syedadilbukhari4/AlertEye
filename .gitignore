@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv_311/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Flutter/Dart
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/build/
+flutter_app/pubspec.lock
+flutter_app/.metadata
+
+# Model files (large - download separately)
+*.pt
+*.pth
+*.onnx
+*.caffemodel
+*.caffemode
+*.pkl
+*.npy
+*.mat
+
+# dlib face predictor (19MB - download separately)
+*.dat
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Documentation
+*.txt
+!requirements.txt
+
+# Batch files (keep only essential startup scripts)
+*.bat
+!1_START_BACKEND.bat
+!2_START_FLUTTER.bat
+!stop_running_proc.bat
+
+# Test files
+test_*.py
+*_test.py
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Logs and runtime artifacts
+alert_log.txt
+flutter_log.txt
+logs/
+
+# Media files (sounds) - keep Flutter assets
+*.mp3
+*.wav
+*.mp4
+*.avi
+!flutter_app/assets/**/*.mp3
+!flutter_app/assets/**/*.wav
+
+# AlertEys specific
+backend/alert_log.txt
+flutter_app/flutter_log.txt
